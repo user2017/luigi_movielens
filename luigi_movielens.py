@@ -6,8 +6,8 @@ To run with email notifications:
 e.g. "python luigi_movielens.py --email-force-send TrainNearestNeighbors"
 
 To set multiple workers: 
-e.g. "python luigi_movielens.py --email-force-send --workers 2 TrainKMeans"
-e.g. "python luigi_movielens.py --email-force-send --workers 4 RunBothModels"
+e.g. "python luigi_movielens.py --workers 2 TrainKMeans"
+e.g. "python luigi_movielens.py --workers 4 RunBothModels"
 
 '''
 
