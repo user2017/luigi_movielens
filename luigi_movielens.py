@@ -9,6 +9,10 @@ To set multiple workers:
 e.g. "python luigi_movielens.py --workers 2 TrainKMeans"
 e.g. "python luigi_movielens.py --workers 4 RunBothModels"
 
+To open Luigi visualization:
+In a command line interface, enter "luigid"
+In browser, enter http://localhost:8082/static/visualiser/index.html
+
 '''
 
 import luigi
